@@ -1,0 +1,234 @@
+/* Escala de Colores
+marron: 5e0606;
+escarlata: 831212;
+morado: 970690;
+amarillo: ffa400;
+*/
+
+*{
+  background-color: #ffa400;
+  /* margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px */
+  border: 0% 0% 0% 0%;
+}
+
+.header{
+
+  height: inherit;
+  max-width: 100%;
+  background-color: #831212;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header ol{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-bottom: 16px;
+}
+
+figure{
+  display: flex;
+  margin: auto;
+}
+
+nav, ol, li, a {
+  list-style: none;
+  text-decoration: none;
+  color: Black;
+  font-size: 25px;
+  background-color: #831212;
+}
+
+.header li{
+  padding: 36px;
+}
+
+#logo{
+  background-color: #831212;
+  height: 334px;
+}
+
+.contenedor {
+  font-family: 'Roboto', sans-serif;
+  margin: 30px 15%;
+  border: 8px solid #831212;
+  border-style: outset;
+
+}
+
+center, h1, span{
+  background-color: #d60ac8;
+}
+
+h1{
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+h1 span{
+  color: #5e0606;
+}
+
+p{
+  margin: 0px;
+  font-size: 32px;
+  text-align: center;
+  background-color: #970690;
+  padding: 30px 0;
+}
+
+footer{
+  background-color: #831212;
+  margin: 0 -8px;
+  height: 340px;;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-contenedor{
+  background-color: #831212;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.footer strong, .footer span{
+  background-color: #831212;
+}
+
+#img-footer{
+  width: 192px;
+}
+
+.contacto{
+  align-items: flex-start;
+  display: flex;
+  margin-top: 45px;
+  width: 300px;
+  flex-wrap: wrap;
+  padding: 25px;
+  padding-right: 130px;
+  padding-left: 200px;
+  background-color: #831212;
+}
+
+.contacto strong{
+  display: block;
+}
+
+label{
+  background-color: #831212
+}
+
+.datos-contenedor{
+  background-color: #831212;
+}
+
+.formulario{
+  display: flex;
+  color: black;
+  padding: 50px 10px;
+  width: 400px;
+  background-color: #831212;
+}
+
+.col-1{
+  padding-top: 12px;
+  padding-right: 20px;
+}
+
+.col-1 input, select{
+  margin-bottom: 5px;
+}
+
+.col-2, select{
+  padding-top: 12px;
+  align-items: flex-start;
+}
+
+.col-1, .col-2, select{
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #831212;
+}
+
+.intereses label{
+  font-size: 16px;
+}
+
+.formulario label, .sexo, .intereses{
+  margin-bottom: 10px;
+  background-color: #831212
+}
+
+input, textarea, select{
+  background-color: white;
+}
+
+#altura-header{
+
+}
+
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 8px 8px 8px 0;
+}
+
+#button1{
+  margin-top: 12px;
+}
+
+.sexo{
+  background-color: #831212;
+}
+
+.formulario-contenedor{
+  font-family: 'Roboto', sans-serif;
+  margin: 30px 15%;
+}
+
+#formulario-margen{
+  padding: 0 29%;
+}
+
+#col-1-margen{
+  margin-left: -171px;
+  margin-bottom: 300px;
+}
+
+.col-1 label, .col-1 input{
+  margin-top: 10px;
+}
+
+#altura-footer{
+  height: 400px;
+}
+
+@media screen and (max-width: 1440px) {
+  /* Computadores de la U */
+}
+
+@media screen and (max-width: 1024px) {
+  /* PC mio */
+}
+
+@media screen and (max-width: 768px) {
+  /* Tablets y iPad */
+}
+
+@media screen and (max-width: 320px) {
+  /* celulares huawei */
+}
+
+@media screen and (max-width: 58.6px) {
+  /* mi celular */
+}
